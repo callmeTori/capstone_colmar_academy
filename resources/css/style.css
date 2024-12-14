@@ -1,1 +1,53 @@
-start
+html {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: "Ubuntu", sans-serif;
+
+}
+header {
+    position: sticky;
+    top: 0;
+    max-height: 64px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    float: left;
+    text-transform: uppercase;
+	max-height: 32px;
+	padding-left: 24px;
+}
+header img {
+    height: 100%:
+}
+header ul {
+	float: right;
+    padding-right: 24px;
+}
+header li {
+	list-style-type: none;
+  	display: inline;
+	padding: 16px;
+
+}
+.light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
